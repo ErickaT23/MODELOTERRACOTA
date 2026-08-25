@@ -26,17 +26,17 @@ const config = {
     legacyKeyParam: "admin"
   },
   seo: {
-    titulo: "Gaby & Jose | 14.11.2026",
-    descripcion: "Boda de Gaby y Jose - 14 de noviembre de 2026 en Antigua Guatemala",
+    titulo: "Gaby & José | 14.11.2026",
+    descripcion: "Te invitamos a celebrar la boda de Gaby & José el 14 de noviembre de 2026 en Antigua Guatemala.",
     autor: "Two Design",
-    keywords: "invitacion de boda, Gaby, Jose, boda, Antigua Guatemala, celebracion",
-    ogImage: "Images/E2.png"
+    keywords: "invitacion de boda, Gaby, José, boda, Antigua Guatemala, celebracion, San Francisco el Grande, Conceptio",
+    ogImage: "https://i.ibb.co/FFLwB4G/MTERRACOTA.png"
   },
   pareja: {
-    nombres: "Gaby & Jose",
+    nombres: "Gaby & José",
     portadaEtiqueta: "Nos casamos",
     novia: "Gaby",
-    novio: "Jose",
+    novio: "José",
     fecha: "14-11-2026",
     fechaVisible: "14.11.2026",
     fechaDestacada: "14 . 11 . 2026",
@@ -47,7 +47,7 @@ const config = {
     padresNoviaTitulo: "Padres de la Novia",
     padresNovia: "Roberto Carranza & Amalia de Carranza",
     padresNovioTitulo: "Padres del Novio",
-    padresNovio: "Marco Antonio Garcia & Isabel de Garcia"
+    padresNovio: "Marco Antonio García & Isabel de García"
   },
   musica: {
     titulo: "Nuestra Canción",
@@ -120,7 +120,7 @@ const config = {
     mostrar: false
   },
   rsvp: {
-    titulo: "Confirmar Asistencia",
+    titulo: "Confirmar asistencia",
     mensaje: "Para nosotros es muy importante que confirmes tu asistencia lo antes posible, o bien indicarnos si no podrás acompañarnos."
   },
   galeria: {
@@ -130,7 +130,7 @@ const config = {
     pareja: ["Images/F1.png", "Images/F2.png"]
   },
   footer: {
-    hashtag: "#GabyYJose",
+    hashtag: "#GabyYJosé",
     instagramUrl: "https://www.instagram.com/thetwodesign",
     facebookUrl: "https://www.facebook.com/thetwodesign",
     marcaTexto: "Diseño",

@@ -131,11 +131,15 @@ function renderInvitationContent() {
   const adultos = cfg.adultos || {};
 
   document.title = seo.titulo || document.title;
+  document.querySelector('meta[name="description"]')?.setAttribute("content", seo.descripcion || "");
   $$("#metaOgTitle")?.setAttribute("content", seo.titulo || document.title);
   $$("#metaOgDescription")?.setAttribute("content", seo.descripcion || "");
   $$("#metaOgImage")?.setAttribute("content", seo.ogImage || galeria.portadaPrincipal || "");
   $$("#metaKeywords")?.setAttribute("content", seo.keywords || "");
   $$("#metaAuthor")?.setAttribute("content", seo.autor || "");
+  document.querySelector('meta[name="twitter:title"]')?.setAttribute("content", seo.titulo || document.title);
+  document.querySelector('meta[name="twitter:description"]')?.setAttribute("content", seo.descripcion || "");
+  document.querySelector('meta[name="twitter:image"]')?.setAttribute("content", seo.ogImage || galeria.portadaPrincipal || "");
 
   setText("#coverTag", pareja.portadaEtiqueta || "Nos casamos");
   setHtml("#coverCouple", escapeHtml(pareja.nombres || "Nuestra celebración").replace("&amp;", '<span class="amp">&</span>'));

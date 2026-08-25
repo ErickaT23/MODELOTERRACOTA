@@ -2,7 +2,7 @@
 // 1) Lista de invitados (ejemplo)
 const guests = [
   { id: "1", name: "Familia Castillo", passes: 4 },
-  { id: "2", name: "Sofia Ramirez", passes: 2 },
+  { id: "2", name: "Sofía Ramírez", passes: 2 },
   { id: "3", name: "Daniel Morales", passes: 1 },
   { id: "4", name: "Valeria Soto", passes: 2 },
   { id: "5", name: "Familia Herrera", passes: 5 },
@@ -10,7 +10,7 @@ const guests = [
 
 window.LocalGuestSeeds = {
   ...(window.LocalGuestSeeds || {}),
-  vivianmaykol2026: guests.reduce((acc, guest) => {
+  gabyjose2026: guests.reduce((acc, guest) => {
     acc[String(guest.id)] = {
       id: String(guest.id),
       nombre: guest.name,
@@ -22,7 +22,7 @@ window.LocalGuestSeeds = {
 };
 
 window.seedEventGuestsToFirebase = async function seedEventGuestsToFirebase(explicitEventId) {
-  const eventId = explicitEventId || window.config?.event?.defaultEventId || "vivianmaykol2026";
+  const eventId = explicitEventId || window.config?.event?.defaultEventId || "gabyjose2026";
   const rsvpDB = window.RSVPDatabase;
 
   if (!rsvpDB?.migrateLocalGuestsToFirebase) {
